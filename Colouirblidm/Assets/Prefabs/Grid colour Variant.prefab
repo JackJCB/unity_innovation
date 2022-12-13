@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 345993586894509068, guid: 022c2ceafeaad0445a7da57ec3a62d3e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 345993586894509068, guid: 022c2ceafeaad0445a7da57ec3a62d3e, type: 3}
       propertyPath: m_LocalScale.x
@@ -66,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 345993586894509069, guid: 022c2ceafeaad0445a7da57ec3a62d3e, type: 3}
       propertyPath: m_Name
-      value: Grid colour
+      value: Grid colour Variant
       objectReference: {fileID: 0}
     - target: {fileID: 345993587474659290, guid: 022c2ceafeaad0445a7da57ec3a62d3e, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -96,6 +96,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1603a6e19b7d9414883e83b21b6dcc76, type: 2}
+    - target: {fileID: 2025026976503314866, guid: 022c2ceafeaad0445a7da57ec3a62d3e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 788b28cba886a654db7b945f49c0d040, type: 2}
     - target: {fileID: 2025026976503314868, guid: 022c2ceafeaad0445a7da57ec3a62d3e, type: 3}
       propertyPath: m_LocalPosition.y
       value: -50.75

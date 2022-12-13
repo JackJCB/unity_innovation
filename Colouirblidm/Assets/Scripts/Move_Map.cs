@@ -53,7 +53,9 @@ public class Move_Map : MonoBehaviour
                     {
                         selected = raycastHit.transform.position;
                         distanceDifference = Placeholder.transform.position - selected;
-                        
+                        Debug.Log(distanceDifference);
+                        Debug.Log(playerOn);
+                        Debug.Log(canMove);
                         if (((distanceDifference.x == 20 || distanceDifference.x == -20) && distanceDifference.z == 0) || (distanceDifference.z == 20 || distanceDifference.z == -20) && distanceDifference.x == 0)
                         {
                             Placeholder.transform.position = selected;
@@ -101,7 +103,7 @@ public class Move_Map : MonoBehaviour
 
             colour = landscapeScript.colours;
 
-            if (colour == "green")
+            if (colour == "orange")
             {
                 for (int i = 0; i < currentPositions.Length / 2; i++)
                 {
@@ -125,7 +127,7 @@ public class Move_Map : MonoBehaviour
                 }
             }
 
-            if (colour == "red")
+            if (colour == "blue")
             {
                 for (int i = currentPositions.Length / 2; i < currentPositions.Length; i++)
                 {

@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a03657144afe78846af811757d921e26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -245,5 +245,6 @@ MonoBehaviour:
   topCamera: {fileID: 0}
   landscapeScript: {fileID: 0}
   win: 0
+  easymode: 0
   currentPositions: []
   EndPositions: []
